@@ -1,25 +1,56 @@
-body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #f4f7f6; color: #333; margin: 0; }
-.hero { background: #002855; color: white; padding: 2rem; text-align: center; }
-.container { max-width: 800px; margin: 20px auto; padding: 20px; }
-section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-h2 { color: #002855; border-left: 5px solid #d4af37; padding-left: 10px; }
+/* Configuración General */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6; 
+    background-color: #f4f7f6; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.hero { 
+    background: #002855; 
+    color: white; 
+    padding: 3rem 1rem; 
+    text-align: center; 
+}
+
+.container { 
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 20px; 
+}
+
+/* Secciones */
+section { 
+    background: white; 
+    padding: 25px; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+}
+
+h2 { 
+    color: #002855; 
+    border-left: 5px solid #d4af37; 
+    padding-left: 15px; 
+    margin-top: 0;
+}
+
+/* Tablas y Listas */
 table { width: 100%; border-collapse: collapse; margin-top: 10px; }
 th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
-th { background-color: #f8f8f8; }
-a { color: #0056b3; text-decoration: none; font-weight: bold; }
-a:hover { text-decoration: underline; }
-.prof-list { list-style: none; padding: 0; }
-.prof-list li { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+ul { list-style-type: square; padding-left: 20px; }
+li { margin-bottom: 8px; }
 
-/* Estilos para el formulario */
-form { display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 20px 0; }
-input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
-button { background: #002855; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
-.contact-page { display: flex; align-items: center; justify-content: center; height: 100vh; }
-.project-grid { display: flex; gap: 15px; }
-.proj-card { 
-    background: #002855; color: white; padding: 20px; border-radius: 8px; 
-    text-decoration: none; font-weight: bold; transition: 0.3s; 
-}
-.proj-card:hover { background: #d4af37; color: black; }
-.contact-box { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+/* Enlaces */
+a { color: #0056b3; text-decoration: none; font-weight: bold; }
+a:hover { text-decoration: underline; color: #d4af37; }
+
+/* Contacto */
+.contact-page { display: flex; align-items: center; justify-content: center; height: 100vh; background: #f4f7f6; }
+.contact-box { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+form { display: flex; flex-direction: column; gap: 15px; margin: 20px 0; }
+input, textarea { padding: 12px; border: 1px solid #ccc; border-radius: 5px; }
+button { background: #002855; color: white; padding: 12px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+button:hover { background: #004085; }
