@@ -27,12 +27,6 @@
     <p>Me caracterizo por ser una persona perseverante y comprometida con mi desarrollo académico y personal. Disfruto enfrentar nuevos retos, adquirir conocimientos constantemente y participar en proyectos que generen un impacto positivo. Además de mi formación profesional, practico el ajedrez y disfruto de tocar el piano, explorar nuevas aplicaciones de la inteligencia artificial y participar en actividades de voluntariado que contribuyan al desarrollo de la comunidad.</p>
 </section>
 
-<section>
-    <h2>Sobre Mí</h2>
-    <p>Aquí va tu texto de presentación...</p>
-</section>
-
-<!-- AQUÍ VAS A PEGAR EL NUEVO CÓDIGO -->
 <section class="interactive-section">
     <h2 onclick="toggleDetails()" style="cursor: pointer;">Destacados Académicos (Haz clic aquí)</h2>
     <div id="details" class="hidden-content">
@@ -67,12 +61,7 @@
         <p><strong>Lógica:</strong><br>
         Profesora: Kristel Gisselle Loayza Cruz (<a href="https://www.linkedin.com/in/kristel-gisselle-loayza-cruz-abb3b039b/" target="_blank">Ver LinkedIn del Profesor</a>)</p>
 </section>
-<script>
-    function toggleDetails() {
-        const details = document.getElementById('details');
-        details.classList.toggle('show');
-    }
-</script>
+
 <section>
     <h2>Idiomas</h2>
     <ul>
@@ -100,6 +89,12 @@
         <li><a href="https://diegosucasacacohata-wq.github.io/Diego-Fabrizio-Sucacaca-Cohata/" target="_blank">Diego Fabrizio Sucasaca Cohata</a></li>
     </ul>
 </section>
+<script>
+    function toggleDetails() {
+        const details = document.getElementById('details');
+        details.classList.toggle('show');
+    }
+</script>
 </main>
 </body>
 </html>
