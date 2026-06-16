@@ -69,3 +69,6 @@ section p {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
 }
+footer, section {
+    padding: 20px 0;
+}
